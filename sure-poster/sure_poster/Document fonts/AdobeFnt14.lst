@@ -1,0 +1,170 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:KievitOffc-Medi
+FamilyName:Kievit Offc
+StyleName:Medium
+FullName:Kievit Offc Medium
+MenuName:Kievit Offc Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\KievitOffc-Medi.ttf
+DataFormat:sfntData
+FileLength:97004
+FileModTime:1436961756
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:KievitOffc
+FamilyName:Kievit Offc
+StyleName:Regular
+FullName:Kievit Offc
+MenuName:Kievit Offc
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\KievitOffc.ttf
+DataFormat:sfntData
+FileLength:93532
+FileModTime:1436961776
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Bold
+FamilyName:Minion Pro
+StyleName:Bold
+FullName:Minion Pro Bold
+MenuName:Minion Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\MinionPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217028
+FileModTime:1329335626
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-It
+FamilyName:Minion Pro
+StyleName:Italic
+FullName:Minion Pro Italic
+MenuName:Minion Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\MinionPro-It.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:258056
+FileModTime:1329335626
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1329335626
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Stratum2-Black
+FamilyName:Stratum2
+StyleName:Black
+FullName:Stratum2 Black
+MenuName:Stratum2 Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\Stratum2-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:96628
+FileModTime:1441308648
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Stratum2-Medium
+FamilyName:Stratum2
+StyleName:Medium
+FullName:Stratum2 Medium
+MenuName:Stratum2 Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\Stratum2-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:99036
+FileModTime:1441308658
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Stratum2-Regular
+FamilyName:Stratum2
+StyleName:Regular
+FullName:Stratum2
+MenuName:Stratum2 Regular
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\colbertz\Box\Thesis\sure-poster\sure_poster\Document fonts\Stratum2-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:97140
+FileModTime:1441308660
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

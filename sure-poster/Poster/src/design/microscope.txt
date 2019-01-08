@@ -1,0 +1,1 @@
+This system is built around an Olympus BX60M metallurgical microscope with linear sample stage, filter cube attachment, and trinoculars. The microscope has a built-in white lamp which is useful for general illumination of samples when identifying a domain to excite.

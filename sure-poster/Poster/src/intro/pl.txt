@@ -1,0 +1,3 @@
+Photoluminescence (PL) is the process by which materials will absorb a photon, exciting an electron to a higher-energy excited state, then emit a photon as the electron relaxes back to a lower-energy state. Measuring PL in various different ways is a common method for characterizing materials, especially semiconductors. 
+
+Basic PL measurements are emission and excitation, and differ only by their independent variables. Emission measurements use one wavelength to excite the material, and measure the intensity of light emitted across a spectrum. Excitation measurements use many wavelengths to excite the material, and measure the intensity of light emitted at a particular wavelength. This project is centered around PL emission measurements.

@@ -1,0 +1,3 @@
+The trinocular optic allows multiple detectors to be connected to the system. In this case, we use a digital microscope camera for general imaging of samples, and an Ocean Optics USB spectrometer for measuring emission spectra. 
+
+The camera is connected to the trinocular directly, but the spectrometer must be coupled to the system using a fiber optic.

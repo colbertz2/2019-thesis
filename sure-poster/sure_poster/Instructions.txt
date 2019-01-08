@@ -1,0 +1,98 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: poster.indd
+
+PACKAGE DATE: 10/9/2018 12:35 PM
+Creation Date: 10/9/2018
+Modification Date: 10/9/2018
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: Zach Colbert
+Address: 
+
+
+
+
+
+Phone: 5412640191
+Fax: 
+Email: colbertz@oregonstate.edu
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+Print actual size with 1/2" margins if possible.
+If margins are too small, scale entire document down to allow 1" margins.
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page1
+
+FONTS
+8 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: KievitOffc; Type: OpenType TrueType, Status: OK
+- Name: KievitOffc-Medi; Type: OpenType TrueType, Status: OK
+- Name: MinionPro-Bold; Type: OpenType Type 1, Status: OK
+- Name: MinionPro-It; Type: OpenType Type 1, Status: OK
+- Name: MinionPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: Stratum2-Black; Type: OpenType Type 1, Status: OK
+- Name: Stratum2-Medium; Type: OpenType Type 1, Status: OK
+- Name: Stratum2-Regular; Type: OpenType Type 1, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 1 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Magenta; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Black; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: PANTONE 1665 C; Angle: 0.000; Lines/Inch: 0.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 10 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 8 use RGB color space
+
+
+PRINT SETTINGS
+PPD: N/A, (Microsoft Print to PDF)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 in, 0 in, 0 in, 0 in
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 36 in x 24 in
+Paper Dimensions: 8.5 in x 11 in
+Orientation: Landscape
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. poster.indd; type: Adobe InDesign publication; size: 0K
+2. KievitOffc.ttf; type: Font file; size: 91K
+3. KievitOffc-Medi.ttf; type: Font file; size: 94K
+4. MinionPro-Bold.otf; type: Font file; size: 211K
+5. MinionPro-It.otf; type: Font file; size: 252K
+6. MinionPro-Regular.otf; type: Font file; size: 212K
+7. Stratum2-Black.otf; type: Font file; size: 94K
+8. Stratum2-Medium.otf; type: Font file; size: 96K
+9. Stratum2-Regular.otf; type: Font file; size: 94K

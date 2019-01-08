@@ -1,0 +1,60 @@
+Initial commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   data/fluorimeter/qd/2018 October 06 15_15_13.csv
+#	new file:   data/fluorimeter/qd/2018 October 06 15_15_13.tif
+#	new file:   data/fluorimeter/qd/Background.csv
+#	new file:   data/fluorimeter/qd/Dark.csv
+#	new file:   data/fluorimeter/qd/Data.csv
+#	new file:   data/fluorimeter/qd/Notes.txt
+#	new file:   data/fluorimeter/tesf-1/Bkg.csv
+#	new file:   data/fluorimeter/tesf-1/Dark.csv
+#	new file:   data/fluorimeter/tesf-1/Data.csv
+#	new file:   data/fluorimeter/tesf-1/Notes.txt
+#	new file:   data/fluorimeter/tesf-2/Bkg1.csv
+#	new file:   data/fluorimeter/tesf-2/Bkg2.csv
+#	new file:   data/fluorimeter/tesf-2/Dark.csv
+#	new file:   data/fluorimeter/tesf-2/Data.csv
+#	new file:   data/fluorimeter/tesf-2/Notes.txt
+#	new file:   data/oceanoptics/ExperimentParams.xlsx
+#	new file:   data/oceanoptics/qd/QD-A-1.csv
+#	new file:   data/oceanoptics/qd/QD-A-2.csv
+#	new file:   data/oceanoptics/qd/QD-A-2.png
+#	new file:   data/oceanoptics/qd/QD-A-3.csv
+#	new file:   data/oceanoptics/qd/QD-A.png
+#	new file:   data/oceanoptics/qd/QD-B-1.csv
+#	new file:   data/oceanoptics/qd/QD-B-2.csv
+#	new file:   data/oceanoptics/qd/QD-B-2.png
+#	new file:   data/oceanoptics/qd/QD-B-3.csv
+#	new file:   data/oceanoptics/qd/QD-B.png
+#	new file:   data/oceanoptics/qd/QD-Bkg.csv
+#	new file:   data/oceanoptics/qd/QD-Dark.csv
+#	new file:   data/oceanoptics/tesf/TESF-A-1.csv
+#	new file:   data/oceanoptics/tesf/TESF-A-2.csv
+#	new file:   data/oceanoptics/tesf/TESF-A-2.png
+#	new file:   data/oceanoptics/tesf/TESF-A-3.csv
+#	new file:   data/oceanoptics/tesf/TESF-A-3.png
+#	new file:   data/oceanoptics/tesf/TESF-A.png
+#	new file:   data/oceanoptics/tesf/TESF-B-1.csv
+#	new file:   data/oceanoptics/tesf/TESF-B-2.csv
+#	new file:   data/oceanoptics/tesf/TESF-B-2.png
+#	new file:   data/oceanoptics/tesf/TESF-B-3.csv
+#	new file:   data/oceanoptics/tesf/TESF-B.png
+#	new file:   data/oceanoptics/tesf/TESF-Bkg.csv
+#	new file:   data/oceanoptics/tesf/TESF-Dark.csv
+#	new file:   python/fluorimeter/__init__.py
+#	new file:   python/oceanoptics/__init__.py
+#	new file:   python/qd-plots.py
+#	new file:   python/spectra/__init__.py
+#	new file:   python/tesf-plots.py
+#	new file:   python/tests/__init__.py
+#	new file:   python/tests/test.csv
+#	new file:   python/tests/test_oceanoptics.py
+#

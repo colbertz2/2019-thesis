@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage{titling}
+\newsavebox{\abstractbox}
+\renewenvironment{abstract}
+ {%
+  \global\setbox\abstractbox=\vtop\bgroup
+  \begin{center}\bfseries\abstractname\end{center}%
+ }
+ {\par\egroup}
+\renewcommand{\maketitlehookd}{%
+  \par\vfil
+  \box\abstractbox
+}
+
+\title{This is a title!}
+\author{Zach Colbert}
+\date{Today}
+
+\begin{document}
+  \begin{titlingpage}
+    
+    \begin{abstract}
+      This is the abstract!
+    \end{abstract}
+   \maketitle
+  \end{titlingpage}
+
+  This is the rest of the document.
+\end{document}

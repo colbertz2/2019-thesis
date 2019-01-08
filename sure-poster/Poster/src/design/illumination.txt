@@ -1,0 +1,1 @@
+This design uses a laser light source to achive single-domain illumination. A diode laser system from ThorLabs was coupled into a side port of the microscope, and directed toward the sample using a filter cube with dichroic mirror.

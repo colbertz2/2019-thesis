@@ -1,0 +1,3 @@
+The existing system in the ufE Lab has the capability of measuring emission spectra in both the visible and near-infrared (NIR) ranges. However, the detector used to measure NIR light must be cooled with liquid nitrogen, which makes those measurements quite costly.
+
+Future work on this project will attempt to expand the new system's sensitivity into the NIR range by using a reflective grating and linear InGaAs array camera (sensitive in the NIR region) to measure sample emissions.

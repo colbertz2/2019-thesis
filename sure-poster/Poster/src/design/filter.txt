@@ -1,0 +1,3 @@
+The filter cube fits inside the microscope at the intersection of the laser beam and light reflected from the sample. It can hold as many as two filters, and one mirror mounted at 45 degrees. 
+
+The filter cube is critical because it directs the laser beam onto the sample, and separates light emitted by the sample from light reflected off of the sample. A mirror and emission filter that block the wavelength of the laser beam must be chosen to prevent illumination from reaching detectors, and allow through only emitted light.

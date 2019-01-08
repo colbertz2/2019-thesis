@@ -1,0 +1,72 @@
+\documentclass[draft]{report}
+
+
+\usepackage{graphicx}
+
+% Puts the abstract on the title page
+\usepackage{titling}
+\newsavebox{\abstractbox}
+\renewenvironment{abstract}
+ {%
+  \global\setbox\abstractbox=\vtop\bgroup
+  \begin{center}\bfseries\abstractname\end{center}%
+ }
+ {\par\egroup}
+\renewcommand{\maketitlehookd}{%
+  \par\vfil
+  \box\abstractbox
+}
+
+% Changes the formatting of the chapter numbers
+\usepackage{titlesec}
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+
+% TITLE DATA
+\title{Development of a Visible-NIR Photoluminescence Microspectrometer}
+\author{Zach Colbert}
+\date{Spring 2019}
+
+
+\begin{document}
+  % TITLE PAGE
+  \begin{titlingpage}
+    \begin{abstract}
+      This is the abstract. It's pretty short.
+    \end{abstract}
+    \maketitle
+  \end{titlingpage}
+
+
+  \tableofcontents
+
+
+  \chapter{Introduction}
+  % \input(chapters/introduction.tex)
+
+  \chapter{Design}
+  % \input(chapters/design.tex)
+
+  \chapter{Results}
+  % \input(chapters/results.tex)
+
+  \chapter{Analysis}
+  % \input(chapters/analysis.tex)
+
+  \chapter{Conclusion}
+  % \input(chapters/conclusion.tex)
+
+  \chapter*{Acknowledgements}
+  % \input(chapters/acknowledgements.tex)
+
+  \chapter*{References}
+  % \input(chapters/references.tex)
+
+
+  \appendix
+  \chapter{Code}
+  % \input(appendix/code)
+
+\end{document}

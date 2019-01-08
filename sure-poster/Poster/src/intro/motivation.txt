@@ -1,0 +1,7 @@
+The Micro-Femto Energetics (ufE) Lab has a system capable of measuring both PL emission and excitation of materials. While the system has a diverse set of uses and is scientifically valuable to have, it has certain drawbacks that make it challenging to use.
+
+Researchers taking measurements with this system have to invest up to 90 minutes of time into starting-up and shutting-down the system, which makes cursory measurement of samples impractical. Because the system has a wide variety of uses, optical equipment often has to be reconfigured around it.
+
+The system uses a xenon-arc lamp and monochromator as its light source, leading to wide-field illumination on samples. This is significant for crystalline structures and nanomaterials, which often require illumination of a single molecular domain. 
+
+This project aimed to resolve these issues by designing a system that could measure PL emission of samples accurately, quickly, and with the potential for single-domain illumination.
