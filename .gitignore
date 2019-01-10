@@ -1,0 +1,7 @@
+.bash_history
+*.dvi
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.toc
