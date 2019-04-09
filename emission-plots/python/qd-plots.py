@@ -91,17 +91,17 @@ fldata_cnorm = sp.normalizespectra(fldata_c)
 ## OTHER ANALYSIS ##
 
 # Using SciPy signal.find_peaks
-pk = sig.find_peaks(oceanbyroi_cnorm[0])
-print len(pk[0])
-print pk[0]
+# pk = sig.find_peaks(oceanbyroi_cnorm[0])
+# print len(pk[0])
+# print pk[0]
 
 ## PLOTS ##
 
 # Init plot
 plt.figure()
-plt.title("CdSe Quantum Dots Emission Spectrum (405nm excitation)")
+# plt.title("CdSe Quantum Dots Emission Spectrum (405nm excitation)")
 plt.xlabel("Emission Wavelength (nm)")
-plt.ylabel("PL Emission")
+plt.ylabel("PL Intensity (arb. units)")
 
 # Ocean optics
 plt.plot(oceanwavelength, oceanbyroi_cnorm[0], label="New System") # ROI A
@@ -114,5 +114,6 @@ plt.plot(flwavelength, fldata_cnorm[flindex], '-', label="Existing System") # RO
 plt.legend(loc='best')
 plt.tight_layout()
 plt.xlim(500, 650)
+plt.ylim(-0.1, 1.1)
 
-# plt.show()
+plt.show()

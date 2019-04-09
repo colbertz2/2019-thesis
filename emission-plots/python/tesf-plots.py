@@ -93,9 +93,9 @@ fldata_cnorm = sp.normalizespectra(fldata_c)
 
 # Init plot
 plt.figure()
-plt.title("ADT-TES-F Emission Spectrum (405nm excitation)")
+# plt.title("ADT-TES-F Emission Spectrum (405nm excitation)")
 plt.xlabel("Emission Wavelength (nm)")
-plt.ylabel("PL Emission")
+plt.ylabel("PL Intensity (arb. units)")
 
 # Ocean optics
 # plt.plot(oceanwavelength, oceanbyroi_cnorm[0], label="New Setup (ROI A)")
@@ -108,5 +108,6 @@ plt.plot(flwavelength, fldata_cnorm[flindex], '-', label="Existing System") # So
 plt.legend(loc='best')
 plt.tight_layout()
 plt.xlim(500, 800)
+plt.ylim(-0.1, 1.1)
 
 plt.show()
