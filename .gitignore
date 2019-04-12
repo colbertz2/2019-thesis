@@ -8,3 +8,6 @@
 *.synctex.gz
 .DS_Store
 *.pdf
+*.bbl
+*.blg
+*.lof
