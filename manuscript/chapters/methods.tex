@@ -1,0 +1,38 @@
+\section{Design}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.75\textwidth]{img/optical-diagram.png}
+    \caption{Schematic diagram of the new PL microspectrometer.}
+    \label{img:optical-diagram}
+\end{figure}
+
+\subsection{Microscope}
+\todo{Schematic diagram of Olympus microscope}
+
+The starting point of the project was an Olympus BX60M fluorescence microscope. The BX60M is built for reflection microscopy, and includes a housing for brightfield and darkfield mirrors. For the new instrument, we added a mirror cube housing between the brightfield/darkfield mirror housing and the observation tube. This additional component housed a dichroic mirror, which enabled us to couple an external light source into the instrument and filter that light out of the path through the observation tube.
+
+
+\subsection{Illumination and Optics}
+The BX60M is equipped with a xenon arc lamp, which is used for general observations under white light illumination. In order to measure photoluminescence, we require the use of a (mostly) monochromatic light source which is energetic enough to cause electron excitation in the sample. \todo{Discuss the mechanics of this, and requirements for a light source in the Background section.}
+
+Our PL microspectrometer uses a diode laser as its light source. Specifically, we used ThorLabs \todo{model?} laser diode (405 nm), \todo{model?} housing, \todo{model?} laser diode controller, and \todo{model?} temperature controller. To couple the laser and microscope, we used a set of two mirrors in a vertical Z-fold \cite{edmund_optics_simplifying_nodate} configuration. This allowed for precise alignment of the laser to the optical axis of the microscope, which allows for maximal transmission of excitation light through the objective lens and onto the sample stage.
+
+The laser diode housing and first mirror were mounted to an optical table. The laser starts parallel to the surface of the table, and the first mirror directs the beam upward. The second mirror in the Z-fold configuration was mounted to the end of a tube that extends out the side of the mirror cube housing. This mirror directs the vertical beam horizontally into the mirror. It seems preferable to mount both mirrors to the optical table for stability, but we were successful with this method by mounting the microscope to the table so that it and the second mirror did not move relative to the laser beam during normal operation.
+
+Due to limited space on the optical table, it was not feasible to align the laser diode housing and mirror cube housing in the plane of the table. To overcome this, our Z-fold configuration also turns the beam 90 degrees in the plane of the table. The configuration we used has the laser beam initially pointed in the direction of the operator, then directed upward by the first mirror, then directed into the side of the mirror cube housing. While in operation, but particularly during laser alignment, precautions must be taken to protect the operator's eyes from direct exposure to the laser beam.
+
+The laser was aligned to the microscope's optical axis in two iterative steps. First, we adjust the position of the laser as it enters the mirror cube housing by moving the first mirror. A reticle made of photoluminescent laser viewing material was a particularly useful target when fixed to the opening on the side of the housing. Then, in place of an objective lens, we fix an iris diaphragm to the microscope nosepiece. We adjust the second mirror to position the laser in the center of the mostly-closed iris. This process is repeated until the laser spot is centered on both targets.
+
+\todo{Pictures/diagrams of the laser configuration/alignment. I have some pictures already that may be useful for this.}
+
+
+
+\subsection{Measuring Spectra}
+\subsection{Imaging}
+
+\section{Operating Procedure}
+\subsection{Laser Startup} % and alignment
+\subsection{Selecting a Region of Interest}
+\subsection{Measuring PL Spectra}
+\subsection{PL Imaging}

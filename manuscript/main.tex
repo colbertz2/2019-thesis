@@ -6,6 +6,10 @@
 \usepackage[labelfont=bf]{caption}
 \usepackage{graphicx}
 \usepackage{comment}
+\usepackage{color, soul}    % for text highlighting
+
+\usepackage[style=phys]{biblatex}       % citations!
+\addbibresource{main.bib}
 
 % Defines the subfigure environment
 \usepackage{subcaption}
@@ -32,9 +36,15 @@
 
 
 % TITLE DATA
-\title{Development of a Visible-NIR Photoluminescence Microspectrometer}
+\title{Development of a Visible Photoluminescence Microspectrometer}
 \author{Zach Colbert}
 \date{Spring 2019}
+
+
+% For comments, notes, todos, etc.
+\newcommand{\printnote}[2]{\hl{[\textbf{#1: #2}]}}
+\newcommand{\todo}[1]{\printnote{TODO}{#1}}
+\newcommand{\note}[1]{\printnote{NOTE}{#1}}
 
 
 \begin{document}
@@ -50,7 +60,7 @@
     \begin{center}
         \vspace*{1cm}
   
-        \textbf{Development of a Visible-NIR Photoluminescence Microspectrometer}
+        \textbf{Development of a Visible Photoluminescence Microspectrometer}
   
         \vspace{1.5cm}
   
@@ -89,8 +99,8 @@
   \chapter{Background}
   \input{chapters/background.tex}
 
-  \chapter{Experimental}
-  \input{chapters/experimental.tex}
+  \chapter{Methods}
+  \input{chapters/methods.tex}
 
   \chapter{Results and Discussion}
   \input{chapters/results.tex}
@@ -102,10 +112,12 @@
   % \input(chapters/conclusion.tex)
 
   \chapter*{Acknowledgements}
+%   This is a test citation. \cite{edmund_optics_simplifying_nodate}
   % \input(chapters/acknowledgements.tex)
 
-  \chapter*{References}
+%   \chapter*{References}
   % \input(chapters/references.tex)
+  \printbibliography[title=References]
 
 
   \appendix

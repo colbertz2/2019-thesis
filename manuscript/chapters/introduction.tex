@@ -1,31 +1,21 @@
 % \section{The Need for a Simpler Spectrometer (Motivation)}
 
-Photoluminescence (PL) is the process by which materials will absorb a photon, exciting an electron to a higher-energy ``excited state," the emit a photon as the electron relaxes back to a lower-energy state. Measuring PL in various different ways is a common method for characterizing semiconducting materials.
+Photoluminescence (PL) is the process by which materials will absorb a photon, exciting an electron to a higher-energy "excited state," then emit a photon as the electron relaxes back to a lower-energy state. Measuring PL in different ways is a common method for characterizing semiconducting materials.
 
-Basic PL measurements are emission and excitation, and differ only by their independent variables. Emission measurements use on wavelength to excite the material, and measure the intensity of light emitted across a spectrum. Excitation measurements use many wavelengths to excite the material, and measure the intensity of light emitted at a particular wavelength. This project is centered around PL emission measurements.
+Basic PL measurements are emission and excitation, and differ by their independent variables. Emission measurements use one wavelength to excite the material, and measure the intensity of light emitted across a chosen spectrum. Excitation measurements use many wavelengths to excite the material, and measure the intensity of light emitted at a particular wavelength. This project is centered around PL emission measurements.
 
-The Micro-Femto Energetics ($\mu$fE) Lab at Oregon State University has a system capable of measuring both PL emission and excitation of materials. While the system has a diverse set of uses and is scientifically valuable to have, it has certain drawbacks that make it challenging to use and limit its usefulness in taking certain measurements.
+The Micro-Femto Energetics ($\mu fE$) group at Oregon State University uses advanced optoelectronic methods to characterize materials, especially thin-layer materials and micron-scale semiconducting devices.
 
-Researchers taking measurements with this system have to invest up to 90 minutes of time into starting up and shutting down the system, which makes cursory measurement of samples impractical. Because the system has a wide variety of uses, optical equipment often has to be reconfigured around it. The system uses a xenon-arc lamp and double-monochromator as its light source, leading to wide-field illumination on samples. This is significant for crystalline structures and nanomaterials, which often require illumination of a single molecular domain.
+The group's workhorse when it comes to PL measurements is a Horiba \textbf{Something?} fluorimeter, coupled to a \todo{model?} microscope. The instrument uses a \todo{specs?} xenon-arc lamp and double-monochromator to illuminate a wide field with a tunable wavelength. The light source is coupled to the microscope with a fiber optic cable. The instrument can be configured for reflection or transmission microscopy depending on the application. With the aid of computer software, the instrument is able to measure both PL emission and excitation. However, there are a few distinct challenges to using this instrument.
 
-This project aimed to resolve these issues by designing a system that could measure PL emission os samples accurately, quickly, and with the potential for single-domain illumination.
+Because the fiber optic delivers a large beam, a large area on samples is illuminated whether the instrument is in a reflection or transmission mode. The wide-field illumination is excellent for imaging, but makes it hard to isolate emissions from small spatial domains.
 
-\begin{comment}
-The Graham Micro-Femto Energetics ($\mu fE$) group at Oregon State University uses advanced optoelectronic methods to characterize materials, especially thin-layer materials and micron-scale semiconducting devices.
+\todo{Something about the system takes a long time to warmup before the light source is stable.}
 
-The group's workhorse when it comes to PL measurements is a Horiba \textbf{Something?} fluorimeter, coupled to a \textbf{Something?} microscope. The system uses a \textbf{Specs?} lamp and double-monochromator to illuminate a wide field with a tunable wavelength.
+\todo{Check specs for monochromator. What is it's spectrum like vs. laser diode? More or less monochromatic?}
 
-The wide field illumination is really nice for imaging, but makes it hard to isolate emissions from small spatial domains.
+\todo{Something about training time and the learning curve for using the device. Software is kinda complicated. Takes a really long time to take a measurement.}
 
-Something about visible and NIR detectors. NIR detector requires liquid nitrogen.
+This project offers a solution to these challenges by designing and assembling a new PL microspectrometer that can measure the PL emission of samples accurately, quickly, and with the ability to illuminate small spatial domains.
 
-Something about the system takes a long time to warmup before the light source is stable.
-
-Something about training time and the learning curve for using the device. Software is kinda complicated. Takes a really long time to take a measurement.
-
-To address this, I build my system to be user friendly and easy to learn.
-
-Naturally, my system has fewer applications. It only measures emission (not excitation), and modifications to the system are a little more complicated. But it's great for taking initial measurements of a sample. If more complicated stuff needs to be done, use the fluorimeter.
-
-Also, my system has much better spatial resolution because it uses a laser source. This makes it less good for imaging, but that can be overcome.
-\end{comment}
+Naturally, the new instrument has fewer applications. It only measures emission (not excitation), and reconfiguration for other measurements requires more consideration to optical design. The goal of this project, however, is to design an instrument that is simple to use for PL measurement when use of the fluorimeter is impractical, too time consuming, or the instrument is in use for another experiment.
