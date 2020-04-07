@@ -1,4 +1,4 @@
-\documentclass{report}
+\documentclass[12pt]{article}
 
 \usepackage{amsmath}
 \usepackage{physics}
@@ -28,11 +28,12 @@
   \box\abstractbox
 }
 
+%% Not sure what this does when changing document type to article
 % Changes the formatting of the chapter numbers
-\usepackage{titlesec}
-\titleformat{\chapter}
-  {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
-\titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+% \usepackage{titlesec}
+% \titleformat{\chapter}
+%   {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
+% \titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
 
 
 % TITLE DATA
@@ -46,6 +47,10 @@
 \newcommand{\todo}[1]{\printnote{TODO}{#1}}
 \newcommand{\note}[1]{\printnote{NOTE}{#1}}
 
+% Requested formatting from Minot, 3/20
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+\linespread{1.6}
 
 \begin{document}
   % TITLE PAGE
@@ -81,7 +86,7 @@
   
         \vfill
   
-        Presented X June 2019 \\
+        Presented X June 2020 \\
         Commencement June 2020
   
     \end{center}
@@ -93,35 +98,29 @@
   \listoffigures
 
 
-  \chapter{Introduction}
+  \section{Introduction}
   \input{chapters/introduction.tex}
 
-  \chapter{Background}
+  \section{Background}
   \input{chapters/background.tex}
 
-  \chapter{Methods}
+  \section{Methods}
   \input{chapters/methods.tex}
 
-  \chapter{Results and Discussion}
+  \section{Results and Discussion}
   \input{chapters/results.tex}
 
-  % \chapter{Discussion}
-  % \input{chapters/discussion.tex}
+  \section{Conclusion}
+  \input{chapters/conclusion.tex}
 
-  \chapter{Conclusion}
-  % \input(chapters/conclusion.tex)
-
-  \chapter*{Acknowledgements}
-%   This is a test citation. \cite{edmund_optics_simplifying_nodate}
-  % \input(chapters/acknowledgements.tex)
-
-%   \chapter*{References}
-  % \input(chapters/references.tex)
+  \section{Acknowledgements}
+  % This is a test citation. \cite{edmund_optics_simplifying_nodate}
+  \input{chapters/acknowledgements.tex}
+  
   \printbibliography[title=References]
 
-
-  \appendix
-  \chapter{Code}
-  % \input(appendix/code)
+%   \appendix
+%   \section{Code}
+%   \input(appendix/code)
 
 \end{document}
