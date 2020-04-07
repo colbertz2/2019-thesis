@@ -1,12 +1,31 @@
-In general, results from the microspectrometer are much smoother than results from the fluorimeter, which include quite a lot of noise. \todo{Something about excitation power and noise? Sources?} We suspect that this is a consequence of wide-field illumination used by the fluorimeter, in which molecules outside the region of interest (or otherwise, with some defects) are excited and emit spectra different from that of the region of interest. \note{Maybe not, depending on the power thing.}
+In general, results from the microspectrometer are much smoother than results from the fluorimeter, which include quite a lot of noise. We suspect that this is a consequence of wide-field illumination used by the fluorimeter, in which molecules outside the region of interest (or otherwise, with some defects) are excited and emit spectra different from that of the region of interest. \todo{Instead of this, explore power dependence. Need sources. Have some questionably reliable data for the laser, no data for the Horiba. Can I get some generic data for Horiba to compare?}
 
 \subsection{ADT TES-F}
 
-For a drop-cast sample of ADT TES-F on glass, we selected a region of interest which appeared to be a single crystal, with few visually distinguishable defects. The crystal was also selected such that its surface area was larger than the area illuminated by the microspectrometer's laser spot. The emission spectra of the region of interest are shown in Figure \ref{fig:pl-adt-tesf}.
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{./img/tesf-white-illum.png}
+        % \caption{TESF region of interest under white light.}
+        \caption{}
+        \label{img:tesf-white}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{./img/tesf-laser-illum.png}
+        % \caption{TESF region of interest under excitation light.}
+        \caption{}
+        \label{img:tesf-laser}
+    \end{subfigure}
+    \caption{Images of ADT TES-F sample under white light (\ref{img:tesf-white}) and under laser excitation light (\ref{img:tesf-laser}). Photoluminescence spectra of this region are shown in Figure \ref{fig:pl-adt-tesf}.}
+    \label{img:tesf}
+\end{figure}
+
+For a drop-cast sample of ADT TES-F on glass, we selected a region of interest which appeared to be a single crystal, with few visually distinguishable defects (Figure \ref{img:tesf}). The crystal was also selected such that its surface area was larger than the area illuminated by the microspectrometer's laser spot. The emission spectra of the region of interest are shown in Figure \ref{fig:pl-adt-tesf}.
 
 \todo{Convert wavelength from nm to eV? This seems to be a more common unit in solid state.}
 
-Both spectra in Figure \ref{fig:pl-adt-tesf} show a clear peak around 630nm, which has been shown in other research.\cite{lam_polarization_2018}\cite{ostroverkhova_organic_2016} The spectra measured by the microspectrometer also shows a secondary peak just below 600 nm, which is not evident in the spectrum taken by the fluorimeter. \todo{Additional sources that back up the peaks I'm showing?}
+Both spectra in Figure \ref{fig:pl-adt-tesf} show a clear peak around 630nm, which has been shown in other research.\cite{lam_polarization_2018}\cite{ostroverkhova_organic_2016}\cite{platt_optical_2009} The spectra measured by the microspectrometer also shows a secondary peak just below 600 nm, which is not evident in the spectrum taken by the fluorimeter. \note{All 3 citations in this paragraph have spectra with peaks similar to mine, but different intensity. This must be because they excited at a different wavelength, but how do I use that?}
 
 \begin{figure}[h]
     \centering
@@ -25,7 +44,25 @@ Both spectra in Figure \ref{fig:pl-adt-tesf} show a clear peak around 630nm, whi
 \end{figure}
 
 \subsection{\ce{CdSe} Quantum Dots}
-Figure \ref{fig:pl-adt-qd} shows the PL emission of CdSe quantum dots \todo{in solution? on substrate?}. There is one broad, clear peak that aligns well with the same measurement taken on the fluorimeter, between 520 and 620 nm. This peak seems to agree with other studies of CdSe quantum structures.\cite{empedocles_photoluminescence_1996}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{./img/qd-white-illum.png}
+        \caption{}
+        \label{img:qd-white}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{./img/qd-laser-illum.png}
+        \caption{}
+        \label{img:qd-laser}
+    \end{subfigure}
+    \caption{Images of CdSe quantum dot sample under white light (\ref{img:qd-white}) and under laser excitation light (\ref{img:qd-laser}). Photoluminescence spectra of this sample are shown in Figure \ref{fig:pl-adt-qd}.}
+    \label{img:qd}
+\end{figure}
+
+Figure \ref{fig:pl-adt-qd} shows the PL emission of CdSe quantum dots \todo{on what substrate?}. There is one broad, clear peak that aligns well with the same measurement taken on the fluorimeter, between 520 and 620 nm. This peak seems to agree with other studies of CdSe quantum structures.\cite{empedocles_photoluminescence_1996}
 
 Unlike the same measurement taken on ADT, this measurement was taken in a region of interest which is sparsely populated with quantum dots, with one target grouping illuminated by the laser.
 
