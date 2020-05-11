@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{comment}
 \usepackage{color, soul}    % for text highlighting
+\usepackage{float}          % for more controlled placement of figures in text
 
 \usepackage[style=phys]{biblatex}       % citations!
 \addbibresource{main.bib}
@@ -30,10 +31,11 @@
 
 %% Not sure what this does when changing document type to article
 % Changes the formatting of the chapter numbers
-% \usepackage{titlesec}
+\usepackage{titlesec}
 % \titleformat{\chapter}
 %   {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
 % \titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\renewcommand{\sectionbreak}{\clearpage}
 
 
 % TITLE DATA
@@ -67,27 +69,21 @@
   
         \textbf{Development of a Visible Photoluminescence Microspectrometer}
   
-        \vspace{1.5cm}
+        \vspace{3cm}
   
-        by \\
+        % by \\
         \textbf{Zachary Colbert}
   
-        \vspace{5cm}
+        \vspace{10cm}
   
-        A thesis advised by Matt W. Graham \\
-        submitted to \\
-        Oregon State University
-
-        \vspace{1.5cm}
-
-        in partial fulfillment of \\
-        the requirements for the degree of \\
-        Baccalaureate of Science in Physics
+        An undergraduate thesis advised by Matt W. Graham \\
+        submitted to the Department of Physics, Oregon State University \\
+        in partial fulfillment of the requirements for the degree of BSc in Physics
   
         \vfill
   
-        Presented X June 2020 \\
-        Commencement June 2020
+        % Presented X June 2020 \\
+        Draft submitted on \today
   
     \end{center}
   \end{titlepage}
