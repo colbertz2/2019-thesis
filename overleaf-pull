@@ -1,0 +1,44 @@
+#!/bin/bash
+
+project_dir=$(dirname $(realpath $0))
+manu_dir="$project_dir/manuscript"
+
+# Require path to zip file
+if [ $# -lt 1 ]; then
+	echo "Usage: $0 zipfile"
+	exit 1
+fi
+
+# Test that file exists
+if [ ! -f "$1" ]; then
+	echo "No such file: $1"
+	exit 2
+fi
+
+# Stop if there are uncommitted changes to manu
+if [[ -n $(git status -s "$manu_dir") ]]; then
+	echo "You have uncommitted manuscript changes."
+	echo "Commit or stash these changes, then try again."
+	exit 3
+fi
+
+# Unzip file to manu directory
+unzip -uo -qq "$1" -d "$manu_dir"
+result=$?
+if [ $result -ne 0 ]; then
+	# If unzip fails, exit
+	exit $result
+else
+	# If unzip succeeds, delete the zip file
+	rm "$1"
+fi
+
+# Output success and git status
+echo "==================="
+echo "Success"
+echo "Source: $1"
+echo "Target: $manu_dir"
+echo "==================="
+git status -s "$manu_dir"
+
+exit 0
