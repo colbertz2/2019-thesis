@@ -7,7 +7,7 @@ The starting point of the project was an Olympus BX60M fluorescence microscope. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{img/microscope.png}
-    \caption[Front view of microspectrometer instrument.]{Front view of microspectrometer instrument (laser controllers not pictured) built around Olympus BX60M fluorescence microscope. The laser diode mount and mirrors are shown on the left. Digital camera for sample imaging is mounted to the microscope eyepiece. At the top of the microscope's optical path we have mounted a collimating mirror, which collects filtered emissions and directs them into a USB spectrometer via a fiber optic.}
+    \caption[Front view of microspectrometer instrument.]{Front view of microspectrometer instrument (laser controllers not pictured) built around Olympus BX60M fluorescence microscope. The laser diode mount and mirrors are shown on the left. Digital camera for sample imaging is mounted to the microscope eyepiece. We have mounted a collimating mirror to the observation tube (at the top of the microscope), which collects emissions and transmits them into a USB spectrometer via optical fiber.}
     \label{img:microscope}
 \end{figure}
 
@@ -37,11 +37,11 @@ Due to limited space on the optical table, it was not feasible to align the lase
 
 We used a longpass dichroic mirror with a cutoff wavelength slightly higher than the excitation wavelength at 405 nm. This causes nearly all of the excitation light to be reflected in the direction of the sample. Because fluorescence will nearly always have a longer wavelength than the exciting photons, we expect the mirror to pass most of the light emitted by the sample and block any reflected excitation light.
 
-\todo{Trinoc and fiber coupling} The microscope is equipped with a trinocular optic
+The observation tube on the Olympus BX60M is at the top of the microscope's optical path, and the operator can toggle between using the observation tube or binocular optic. To collect and measure the spectrum of fluorescent emissions, we fixed a collimating adapter to the observation tube. This allowed us to collect emissions and transmit them via optical fiber to our spectromter.
 
+We used an Ocean Optics (now Ocean Insight) USB2000 miniature spectrometer to measure the spectra shown in Chapter \ref{chap:results}. The USB2000 is sensitive to light between about 350 nm and 1000 nm, so in this case we are only able to measure fluorescent emissions in the visible spectrum and a small part of the near-infrared spectrum. This detector can easily be exchanged for one with a different range as required for future projects.
 
-\subsubsection{Measuring Spectra}
-\todo{About the Ocean Optics?}
+The USB spectrometer is connected to a nearby desktop computer, with Ocean Optics software installed for measuring spectra.
 
 \begin{figure}[H]
     \centering
@@ -50,9 +50,7 @@ We used a longpass dichroic mirror with a cutoff wavelength slightly higher than
     \label{img:objective-sample}
 \end{figure}
 
-
-\subsubsection{Imaging}
-\todo{About the camera}
+With adapters on hand, we were able to fix a digital camera to the binocular optic for simple imaging of samples. The camera is connected via USB to a desktop computer with software for capturing images. Example images are shown in Figures \ref{img:tesf} and \ref{img:qd}.
 
 
 \subsection{Laser Alignment}
