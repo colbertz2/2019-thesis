@@ -99,10 +99,10 @@ plt.ylabel("PL Intensity (arb. units)")
 
 # Ocean optics
 # plt.plot(oceanwavelength, oceanbyroi_cnorm[0], label="New Setup (ROI A)")
-plt.plot(oceanwavelength, oceanbyroi_cnorm[1], label="New System") # ROI B
+plt.plot(oceanwavelength, oceanbyroi_cnorm[1], label="Microspectrometer") # ROI B
 
 # Fluorolog
-plt.plot(flwavelength, fldata_cnorm[flindex], '-', label="Existing System") # Some other ROI
+plt.plot(flwavelength, fldata_cnorm[flindex], '-', label="Horiba Fluorolog") # Some other ROI
 
 # Other plot features
 plt.legend(loc='best')

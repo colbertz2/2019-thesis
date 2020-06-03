@@ -6,7 +6,7 @@ import os.path as path
 import fluorimeter as fl
 import oceanoptics as oo
 import spectra as sp
-import scipy.signal as sig
+# import scipy.signal as sig
 
 ## OCEAN OPTICS DATA ##
 
@@ -104,11 +104,11 @@ plt.xlabel("Emission Wavelength (nm)")
 plt.ylabel("PL Intensity (arb. units)")
 
 # Ocean optics
-plt.plot(oceanwavelength, oceanbyroi_cnorm[0], label="New System") # ROI A
+plt.plot(oceanwavelength, oceanbyroi_cnorm[0], '-', label="Microspectrometer") # ROI A
 # plt.plot(oceanwavelength, oceanbyroi_cnorm[1], label="New System (ROI B)")
 
 # Fluorolog
-plt.plot(flwavelength, fldata_cnorm[flindex], '-', label="Existing System") # ROI A
+plt.plot(flwavelength, fldata_cnorm[flindex], '-', label="Horiba Fluorolog") # ROI A
 
 # Other plot features
 plt.legend(loc='best')
