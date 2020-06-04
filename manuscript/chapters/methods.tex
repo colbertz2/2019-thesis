@@ -22,7 +22,7 @@ The BX60M is equipped with a xenon arc lamp, which is used for general observati
     \label{img:optical-diagram}
 \end{figure}
 
-Our instrument uses a diode laser as its light source. Specifically, we used a ThorLabs L405P20 laser diode (405 nm), TCLDM9 thermoelectrically-cooled mount, LDC 202 laser diode controller, and TED 200 temperature controller. To couple the laser and microscope, we used a set of two mirrors in a vertical beam fold configuration. This allowed for precise alignment of the laser to the optical axis of the microscope, which allows for maximal transmission of excitation light through the objective lens and onto the sample stage.
+Our instrument uses a diode laser as its light source. Specifically, we used a ThorLabs L405P20 laser diode (405 nm), TCLDM9 thermoelectrically-cooled mount, LDC 202 laser diode controller, and TED 200 temperature controller. To couple the laser and microscope, we used a set of two mirrors in a vertical beam fold configuration. \hl{This enabled precise alignment of the laser to the optical axis of the microscope, which maximizes transmission of excitation light through the objective lens and onto the sample stage.}
 
 The laser diode housing and first mirror were mounted to an optical table. The laser starts parallel to the surface of the table, and the first mirror directs the beam upward. The second mirror in the beam fold was mounted to the end of a tube that extends out the side of the mirror cube housing. This mirror directs the vertical beam horizontally into the mirror. It seems preferable to mount both mirrors to the optical table for stability, but we were successful with this method by mounting the microscope to the table so that it and the second mirror did not move relative to the laser beam during normal operation.
 
@@ -35,7 +35,9 @@ The laser diode housing and first mirror were mounted to an optical table. The l
 
 Due to limited space on the optical table, it was not feasible to align the laser diode housing and mirror cube housing in the plane of the table. To overcome this, our beam fold configuration also turns the beam 90 degrees in the plane of the table. The configuration we used has the laser beam initially pointed in the direction of the operator, then directed upward by the first mirror, then directed into the side of the mirror cube housing. While in operation, but particularly during laser alignment, precautions must be taken to protect the operator's eyes from direct exposure to the laser beam. The optical power of the laser is low enough that laser safety glasses (with high optical density near 405 nm) are sufficient, but beam blocks on the table may also be desireable in some cases.
 
-We used a longpass dichroic mirror with a cutoff wavelength slightly higher than the excitation wavelength at 405 nm. This causes nearly all of the excitation light to be reflected in the direction of the sample. Because fluorescence will nearly always have a longer wavelength than the exciting photons, we expect the mirror to pass most of the light emitted by the sample and block any reflected excitation light.
+We used a longpass dichroic mirror with a cutoff wavelength slightly higher than the excitation wavelength at 405 nm, causing nearly all of the excitation light to be reflected in the direction of the sample. \hl{A longpass mirror with cutoff wavelength slightly higher than the excitation wavelength is ideal beacuse it will pass most of the light emitted by the sample, as we expect fluorescence to nearly always have a longer wavelength than the exciting photons.}
+
+% Because fluorescence will nearly always have a longer wavelength than the exciting photons, we expect the mirror to pass most of the light emitted by the sample and block any reflected excitation light.
 
 The observation tube on the Olympus BX60M is at the top of the microscope's optical path, and the operator can toggle between using the observation tube or binocular optic. To collect and measure the spectrum of fluorescent emissions, we fixed a collimating adapter to the observation tube. This allowed us to collect emissions and transmit them via optical fiber to our spectromter.
 
@@ -50,7 +52,7 @@ The USB spectrometer is connected to a nearby desktop computer, with Ocean Optic
     \label{img:objective-sample}
 \end{figure}
 
-With adapters on hand, we were able to fix a digital camera to the binocular optic for simple imaging of samples. The camera is connected via USB to a desktop computer with software for capturing images. Example images are shown in Figures \ref{img:tesf} and \ref{img:qd}.
+We were able to fix a digital camera to the binocular optic for simple imaging of samples with adapters on hand. The camera is connected via USB to a desktop computer with software for capturing images. Example images are shown in Figures \ref{img:tesf} and \ref{img:qd}.
 
 
 \subsection{Laser Alignment}
