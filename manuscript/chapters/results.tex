@@ -1,8 +1,9 @@
-\note{Make this section more about the device and how well it works, less about the actual measurements we got. To talk about the measurements, examine why they match up with literature or not. How is that related to the instrument? Hint: we didn't calibrate shit.}
 
-In order to test the new microspectrometer instrument, we measure the fluorescence spectra of two 
+In this chapter we demonstrate the use of the new microspectrometer instrument by measuring photoluminescence in samples of two materials, introduced in Chapter \ref{chap:intro-optomats}. Samples of the anthradithiophene derivative ADT-TES-F and of cadmium selenide quantum dots were both drop-cast from solution on glass slides. Both samples were excited at 405 nm, with our detector measuring emissions between approximately 450 nm and 1000 nm.
 
-\subsection{ADT TES-F}
+For each sample we were able to measure PL in approximately the same regions of interest with both the Horiba Fluorolog-3 and our new instrument. Figures \ref{fig:pl-adt-tesf} and \ref{fig:pl-adt-qd} compare the resulting spectra measured by each device. 
+
+We also demonstrate the use of our instrument for imaging. Figures \ref{img:tesf} and \ref{img:qd} show images of the region of interest used for PL measurements of each sample. 
 
 \begin{figure}[H]
     \centering
@@ -25,28 +26,18 @@ In order to test the new microspectrometer instrument, we measure the fluorescen
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.8\textwidth]{./img/tesf-2.png}%\llap{\raisebox{4cm}{\includegraphics[width=2cm]{img/tesf-white-illum.png}}}
+    \includegraphics[width=0.8\textwidth]{./img/tesf-2.png}%\llap{\raisebox{4cm}{\includegraphics[width=2cm]{img/tesf-white-illum.png}}}
     % \includegraphics[width=.2\textwidth]{./img/tesf-white-illum.png}
     % \includegraphics[width=.2\textwidth]{./img/tesf-laser-illum.png}
-    \caption[PL emission spectrum of ADT TES-F, excited at 405nm.]{PL emission spectrum of ADT TES-F, excited at 405 nm.
-    Wide-field illumination used by the existing system to excite the sample
-    yields a noisy spectrum, and does not excite the secondary peak that is 
-    shown clearly in the results from the new system. A single crystal, larger than the laser spot, was selected among smaller neighboring crystals for this measurement. %This may be because the
-    %wide-field illumination is exciting many adjacent crystals in the sample, 
-    %which emit slightly different spectra. The laser illumination in the new 
-    %system has the spatial resolution necessary to illuminate single crystals.
-    }
+    \caption[PL emission spectrum of ADT TES-F, excited at 405nm.]{PL emission spectrum of ADT TES-F, excited at 405 nm.}
     \label{fig:pl-adt-tesf}
 \end{figure}
 
-For a drop-cast sample of ADT TES-F on glass, we selected a region of interest which appeared to be a single crystal, with few visually distinguishable defects (Figure \ref{img:tesf}). The crystal was also selected such that its surface area was larger than the area illuminated by the microspectrometer's laser spot. The emission spectra of the region of interest are shown in Figure \ref{fig:pl-adt-tesf}.
+The results from the microspectrometer show an emission maximum at 630 nm for the ADT TES-F sample; a less intense local maximum is also shown at about 600 nm. The spectrum measured with the Fluorolog has similar features to that of the microspectrometer, but is not precisely the same. The peak appears narrower overall in the Fluorolog data than in the microspectrometer data. The lower-wavelength side of the peak begins to rise at a higher wavelength in the Fluorolog data, and the emission maximum is red-shifted by about 4 nm. The local maximum at 600 nm is much less prominent in the Fluorolog data than in the microspectrometer data.
 
-Using the fluorimeter instrument, we were able to illuminate and measure the PL spectrum of the same region of interest, plus an indeterminate area of the sample around this region.
+The microspectrometer data shows emission peaks similar to the ones reported by Shepherd \emph{et al.}, who used a similar drop cast sample and the same model Ocean Optics spectrometer \cite{e._b._shepherd_effect_2011, shepherd_optical_2010}. Unlike Shepherd, we were not able to calibrate our detector with a reliable instrument; this could be a cause for the slight shift between peaks in the Fluorolog data as compared to our microspectrometer data.
 
-Both spectra in Figure \ref{fig:pl-adt-tesf} show a clear peak around 630nm. The spectra measured by the microspectrometer also shows a secondary peak just below 600 nm, which is not evident in the spectrum taken by the fluorimeter. \cite{lam_polarization_2018}\cite{ostroverkhova_organic_2016}\cite{platt_optical_2009}\note{All 3 citations in this paragraph have spectra with peaks similar to mine, but different intensity. This must be because they excited at a different wavelength, but how do I use that?}
-
-
-\subsection{\ce{CdSe} Quantum Dots}
+Crystal aggregates and orientation with respect to the polarization of the excitation light have been shown to affect the emission spectra in ADT derivatives \cite{lam_polarization_2018}. As shown in Figure \ref{img:tesf}, we were able to excite what appears to be a single crystal domain --- assuming that this domain has few defects and a relatively uniform stacking structure, we expect it to fluoresce with a distinct spectrum. The Fluorolog excites a much wider area of the sample, which may include many crystal domains, defects, and slightly different stacking structures. Thus, it is conceivable that the resulting fluorescence spectrum is an aggregate of several slightly different spectra.
 
 \begin{figure}[H]
     \centering
@@ -67,15 +58,15 @@ Both spectra in Figure \ref{fig:pl-adt-tesf} show a clear peak around 630nm. The
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{./img/qd-2.png}
+    \includegraphics[width=0.8\textwidth]{./img/qd-2.png}
     % \includegraphics[width=4cm]{./img/qd-white-illum.png}
     % \includegraphics[width=4cm]{./img/qd-laser-illum.png}
     \caption{PL emission spectrum of a cluster of CdSe quantum dots, excited at 405 nm.}
     \label{fig:pl-adt-qd}
 \end{figure}
 
-Figure \ref{fig:pl-adt-qd} shows the PL emission of CdSe quantum dots \todo{on what substrate?}. There is one broad, clear peak that aligns well with the same measurement taken on the fluorimeter, between 520 and 620 nm. This peak seems to agree with other studies of CdSe quantum structures.\cite{empedocles_photoluminescence_1996}
+The microspectrometer data shows an emission maximum at 572 nm for our sample of CdSe quantum dots. Peaks in both the Fluorolog and microspectrometer data are well-aligned, though there is a very slight blue-shift in the higher-wavelength leg of the peak of the Fluorolog data. 
 
-Unlike the same measurement taken on ADT, this measurement was taken in a region of interest which is sparsely populated with quantum dots, with one target grouping illuminated by the laser.
+The peak at 572 nm is also reported by Empedocles \emph{et al.} in their paper, "Photoluminescence Spectroscopy of Single CdSe Nanocrystallite Quantum Dots" \cite{empedocles_photoluminescence_1996}. They report a much narrower peak than we found (13 meV FWHM to our 110 meV), but measure PL at a very high excitation intensity. We are unable to thoroughly compare our results to those published by Empedocles because we do not have excitation intensity data, but it is possible that excitation intensity affected the width of our emission peak. It is also possible that fundamental differences in our sample and methods resulted in a wider peak --- it is well known that fluorescence in quantum dots varies with their shape and size, and Empedocles used techniques beyond the scope of this project to measure PL of single quantum dots.
 
-\todo{What else do I write about here? Need to find more resources on analysis of PL, i.e. what information we get about the material. This will also be useful for Background section.}
+Data from the Fluorolog is notably more noisy than data from our microspectrometer. It is possible that this is the result of smoothing by the Ocean Optics spectrometer and its software, though we have found no evidence to support this. It has been suggested that low excitation intensity when using the Fluorolog may result in noisy data, but we are unable to verify this because we do not have excitation intensity data for either of the instruments used in this work \cite{minot-private}. Future work with our microspectrometer instrument should make optical power measurements a high priority.
