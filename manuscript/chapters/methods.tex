@@ -4,6 +4,9 @@
 
 The starting point of the project was an Olympus BX60M fluorescence microscope. The BX60M is built for reflection microscopy, and includes a housing for brightfield and darkfield mirrors. For the new instrument, we added a mirror cube housing between the brightfield/darkfield mirror housing and the observation tube. This additional component housed a dichroic mirror, which enabled us to couple an external light source into the instrument and filter that light out of the path through the observation tube.
 
+\subsubsection{Laser Excitation}
+The BX60M is equipped with a xenon arc lamp, which is used for general observations under white light illumination. In order to measure photoluminescence, we require the use of a (mostly) monochromatic light source which is energetic enough to excite electrons in the sample.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{img/microscope.png}
@@ -11,9 +14,7 @@ The starting point of the project was an Olympus BX60M fluorescence microscope. 
     \label{img:microscope}
 \end{figure}
 
-
-\subsubsection{Laser Excitation}
-The BX60M is equipped with a xenon arc lamp, which is used for general observations under white light illumination. In order to measure photoluminescence, we require the use of a (mostly) monochromatic light source which is energetic enough to excite electrons in the sample.
+Our instrument uses a diode laser as its light source. Specifically, we used a ThorLabs L405P20 laser diode (405 nm), TCLDM9 thermoelectrically-cooled mount, LDC 202 laser diode controller, and TED 200 temperature controller. To couple the laser and microscope, we used a set of two mirrors in a vertical beam fold configuration. \hl{This enabled precise alignment of the laser to the optical axis of the microscope, which maximizes transmission of excitation light through the objective lens and onto the sample stage.}
 
 \begin{figure}[h]
     \centering
@@ -21,8 +22,6 @@ The BX60M is equipped with a xenon arc lamp, which is used for general observati
     \caption{Schematic diagram of the microspectrometer instrument.}
     \label{img:optical-diagram}
 \end{figure}
-
-Our instrument uses a diode laser as its light source. Specifically, we used a ThorLabs L405P20 laser diode (405 nm), TCLDM9 thermoelectrically-cooled mount, LDC 202 laser diode controller, and TED 200 temperature controller. To couple the laser and microscope, we used a set of two mirrors in a vertical beam fold configuration. \hl{This enabled precise alignment of the laser to the optical axis of the microscope, which maximizes transmission of excitation light through the objective lens and onto the sample stage.}
 
 The laser diode housing and first mirror were mounted to an optical table. The laser starts parallel to the surface of the table, and the first mirror directs the beam upward. The second mirror in the beam fold was mounted to the end of a tube that extends out the side of the mirror cube housing. This mirror directs the vertical beam horizontally into the mirror. It seems preferable to mount both mirrors to the optical table for stability, but we were successful with this method by mounting the microscope to the table so that it and the second mirror did not move relative to the laser beam during normal operation.
 
